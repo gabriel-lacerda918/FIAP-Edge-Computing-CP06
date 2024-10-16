@@ -38,6 +38,12 @@ Implementamos dashboards online usando Node-RED para visualização em tempo rea
 - Histórico de dados com opções de filtragem por período
 - Personalização de layouts e widgets para diferentes necessidades de monitoramento
 
+## Dashboard
+Abaixo está uma captura de tela do nosso dashboard desenvolvido via Node-RED, mostrando a interface de monitoramento em tempo real:
+
+![Dashboard Node-RED](caminho/para/imagem/dashboard.png)
+
+
 ## Código e Configuração
 
 ### Definição dos Pinos dos Sensores
