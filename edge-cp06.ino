@@ -176,7 +176,7 @@ void handleLuminosity() {
     String mensagem = String(luminosity);
     Serial.print("Valor da luminosidade: ");
     Serial.println(mensagem.c_str());
-    MQTT.publish(TOPICO_PUBLISH_2, mensagem.c_str());
+    MQTT.publish(TOPICO_PUBLISH_4, mensagem.c_str());
 
     float humidity = dht.readHumidity();
     float temperature = dht.readTemperature();
@@ -195,5 +195,5 @@ void handleLuminosity() {
     MQTT.publish(TOPICO_PUBLISH_3, mensagem.c_str());
 
     mensagem = String(temperature);
-    MQTT.publish(TOPICO_PUBLISH_4, mensagem.c_str());
+    MQTT.publish(TOPICO_PUBLISH_2, mensagem.c_str());
 }
