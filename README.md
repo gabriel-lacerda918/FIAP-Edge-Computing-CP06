@@ -39,9 +39,10 @@ Implementamos dashboards online usando Node-RED para visualização em tempo rea
 - Personalização de layouts e widgets para diferentes necessidades de monitoramento
 
 ## Dashboard
-Abaixo está uma captura de tela do nosso dashboard desenvolvido via Node-RED, mostrando a interface de monitoramento em tempo real:
+Abaixo estão as capturas de tela do projeto indicando as leituras dos sensores via App mobile MQTT, a estrutura do dashboard desenvolvido via Node-RED, e o monitoramento em tempo real através de dashboards:
 
-![Dashboard Node-RED](caminho/para/imagem/dashboard.png)
+![publish-dashboard](https://github.com/user-attachments/assets/dc23a522-14db-4515-aa75-c73064e63252)
+
 
 
 ## Código e Configuração
